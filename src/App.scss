@@ -1,0 +1,17 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.app-content {
+  margin: 1rem auto;
+  width: 80%;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #a0a0a01d;
+}
+
+.text-container > *,
+.editor-container > * {
+  text-align: left;
+}
