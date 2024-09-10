@@ -3,6 +3,8 @@ import Header from '@editorjs/header'
 import List from '@editorjs/list'
 import Delimiter from '@editorjs/delimiter'
 import Image from '@editorjs/image'
+import RawTool from '@editorjs/raw'
+// import GoogleMap from './google-map'
 
 // Include
 
@@ -16,7 +18,6 @@ const getBase64 = async (file: any) => {
 }
 
 export const EDITOR_JS_TOOLS: any = {
-  // ok
   header: Header,
   list: List,
   delimiter: Delimiter,
@@ -34,4 +35,13 @@ export const EDITOR_JS_TOOLS: any = {
       },
     },
   },
+  // googleMap: {
+  //   class: GoogleMap,
+  //   inlineToolbar: true,
+  //   config: {
+  //     placeholder: 'Place or lat and long eg: 15.9383,100.293833 ...',
+  //     searchValue: 'Search',
+  //   },
+  // },
+  raw: RawTool,
 }
